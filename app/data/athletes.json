@@ -1,0 +1,38 @@
+[
+  {
+    "id": "1",
+    "name": "Arjun Sharma",
+    "sport": "Football",
+    "position": "Striker",
+    "age": 22,
+    "stats": {
+      "speed": 85,
+      "stamina": 78,
+      "accuracy": 80
+    }
+  },
+  {
+    "id": "2",
+    "name": "Rohit Verma",
+    "sport": "Cricket",
+    "position": "Batsman",
+    "age": 24,
+    "stats": {
+      "speed": 60,
+      "stamina": 75,
+      "accuracy": 90
+    }
+  },
+  {
+    "id": "3",
+    "name": "Karan Singh",
+    "sport": "Basketball",
+    "position": "Guard",
+    "age": 21,
+    "stats": {
+      "speed": 82,
+      "stamina": 88,
+      "accuracy": 76
+    }
+  }
+]
