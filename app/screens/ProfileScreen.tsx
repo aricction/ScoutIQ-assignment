@@ -9,6 +9,13 @@ export default function ProfileScreen({ route }: any) {
         {athlete.name}
       </Text>
       <Text>{athlete.sport}</Text>
+      <Text>{athlete.position}</Text>
+     <Text>{athlete.age}</Text>
+           <Text>Speed {athlete.stats.speed}</Text>
+           <Text>Stamina {athlete.stats.stamina}</Text>
+           <Text>accuracy {athlete.stats.accuracy}</Text>
+
+
     </View>
   );
 }
