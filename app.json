@@ -23,9 +23,9 @@
       "package": "com.govind350.ScoutIQ"
     },
     "web": {
-      "output": "static",
-      "favicon": "./assets/images/favicon.png"
-    },
+  "bundler": "metro"
+},
+
     "plugins": [
       "expo-router",
       [
@@ -45,6 +45,7 @@
       "typedRoutes": true,
       "reactCompiler": true
     },
+    
     "extra": {
       "router": {},
       "eas": {

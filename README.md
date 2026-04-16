@@ -97,7 +97,6 @@ npx expo start
 * Implement swipe gestures for shortlist removal
 * Improve UI polish (shadows, typography, spacing consistency)
 * Add sorting (e.g., highest score first)
-* Introduce unit tests for core logic
 
 ---
 
