@@ -18,10 +18,11 @@ const styles = StyleSheet.create({
   container: {
     marginBottom: 12
   },
-  input: {
-    backgroundColor: "#eee",
-    padding: 10,
-    borderRadius: 8,
-    borderWidth: 2,
-  }
+ input: {
+  backgroundColor: "#fff",
+  padding: 12,
+  borderRadius: 12,
+  borderWidth: 1,
+  borderColor: "#e5e7eb"
+}
 });

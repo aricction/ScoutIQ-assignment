@@ -67,12 +67,15 @@ const styles = StyleSheet.create({
   },
 
   dropdown: {
-    marginTop: 8,
-    backgroundColor: "#fff",
-    borderRadius: 10,
-    padding: 8,
-    elevation: 3,
-  },
+  marginTop: 8,
+  backgroundColor: "#fff",
+  borderRadius: 12,
+  padding: 8,
+  elevation: 4,
+  shadowColor: "#000",
+  shadowOpacity: 0.1,
+  shadowRadius: 6
+},
 
   chip: {
     justifyContent: "flex-end",

@@ -26,8 +26,8 @@ export default function DiscoverScreen( {navigation}: any){
 
 
     return (
-      <View style={{ flex: 1, padding: 16 }}>
-  <SearchBar value={search} onChange={handleSearch} />
+<View style={{ flex: 1, padding: 16, backgroundColor: "#f8fafc" }}>
+    <SearchBar value={search} onChange={handleSearch} />
 
   <FilterChips
     selected={selectedSport}
