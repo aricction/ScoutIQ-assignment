@@ -5,11 +5,7 @@
     "sport": "Football",
     "position": "Striker",
     "age": 22,
-    "stats": {
-      "speed": 85,
-      "stamina": 78,
-      "accuracy": 80
-    }
+    "stats": { "speed": 88, "stamina": 84, "accuracy": 82 }
   },
   {
     "id": "2",
@@ -17,11 +13,7 @@
     "sport": "Cricket",
     "position": "Batsman",
     "age": 24,
-    "stats": {
-      "speed": 60,
-      "stamina": 75,
-      "accuracy": 90
-    }
+    "stats": { "speed": 72, "stamina": 68, "accuracy": 75 }
   },
   {
     "id": "3",
@@ -29,10 +21,102 @@
     "sport": "Basketball",
     "position": "Guard",
     "age": 21,
-    "stats": {
-      "speed": 82,
-      "stamina": 88,
-      "accuracy": 76
-    }
+    "stats": { "speed": 90, "stamina": 85, "accuracy": 80 }
+  },
+  {
+    "id": "4",
+    "name": "Bhuvan Raj",
+    "sport": "Cricket",
+    "position": "Bowler",
+    "age": 23,
+    "stats": { "speed": 48, "stamina": 52, "accuracy": 50 }
+  },
+  {
+    "id": "5",
+    "name": "Aman Gupta",
+    "sport": "Football",
+    "position": "Midfielder",
+    "age": 25,
+    "stats": { "speed": 78, "stamina": 80, "accuracy": 74 }
+  },
+  {
+    "id": "6",
+    "name": "Ravi Kumar",
+    "sport": "Basketball",
+    "position": "Forward",
+    "age": 22,
+    "stats": { "speed": 55, "stamina": 58, "accuracy": 60 }
+  },
+  {
+    "id": "7",
+    "name": "Siddharth Jain",
+    "sport": "Football",
+    "position": "Defender",
+    "age": 26,
+    "stats": { "speed": 45, "stamina": 50, "accuracy": 48 }
+  },
+  {
+    "id": "8",
+    "name": "Yash Patel",
+    "sport": "Cricket",
+    "position": "All-rounder",
+    "age": 23,
+    "stats": { "speed": 82, "stamina": 79, "accuracy": 85 }
+  },
+  {
+    "id": "9",
+    "name": "Neeraj Singh",
+    "sport": "Basketball",
+    "position": "Center",
+    "age": 27,
+    "stats": { "speed": 65, "stamina": 70, "accuracy": 68 }
+  },
+  {
+    "id": "10",
+    "name": "Manish Yadav",
+    "sport": "Football",
+    "position": "Winger",
+    "age": 21,
+    "stats": { "speed": 92, "stamina": 88, "accuracy": 84 }
+  },
+  {
+    "id": "11",
+    "name": "Deepak Mishra",
+    "sport": "Cricket",
+    "position": "Wicketkeeper",
+    "age": 24,
+    "stats": { "speed": 58, "stamina": 55, "accuracy": 60 }
+  },
+  {
+    "id": "12",
+    "name": "Rahul Das",
+    "sport": "Basketball",
+    "position": "Guard",
+    "age": 22,
+    "stats": { "speed": 40, "stamina": 45, "accuracy": 42 }
+  },
+  {
+    "id": "13",
+    "name": "Vikas Sharma",
+    "sport": "Football",
+    "position": "Striker",
+    "age": 23,
+    "stats": { "speed": 75, "stamina": 72, "accuracy": 70 }
+  },
+  {
+    "id": "14",
+    "name": "Ankit Roy",
+    "sport": "Cricket",
+    "position": "Bowler",
+    "age": 25,
+    "stats": { "speed": 85, "stamina": 82, "accuracy": 80 }
+  },
+  {
+    "id": "15",
+    "name": "Harsh Mehta",
+    "sport": "Basketball",
+    "position": "Forward",
+    "age": 21,
+    "stats": { "speed": 50, "stamina": 48, "accuracy": 52 }
   }
 ]

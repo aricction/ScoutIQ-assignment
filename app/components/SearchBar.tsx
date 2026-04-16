@@ -21,6 +21,7 @@ const styles = StyleSheet.create({
   input: {
     backgroundColor: "#eee",
     padding: 10,
-    borderRadius: 8
+    borderRadius: 8,
+    borderWidth: 2,
   }
 });

@@ -44,7 +44,8 @@ export default function DiscoverScreen( {navigation}: any){
     data={filteredAthletes}
     keyExtractor={(item) => item.id}
     renderItem={({ item }) => (
-      <AthleteCard athlete={item} />
+      <AthleteCard athlete={item}
+      onPress = {()=> navigation.navigate("Profile", {athlete: item})} />
     )}
   />
 </View>
