@@ -1,50 +1,133 @@
-# Welcome to your Expo app 👋
+# 🏃 ScoutIQ — Athlete Discovery App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A React Native (Expo) application built for scouts to discover athletes, evaluate profiles, and manage a shortlist for trials.
 
-## Get started
+---
 
-1. Install dependencies
-
-   ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+## 🚀 Setup Instructions
 
 ```bash
-npm run reset-project
+# Clone the repo
+git clone <your-repo-link>
+
+# Navigate into project
+cd ScoutIQ
+
+# Install dependencies
+npm install
+
+# Start the app
+npx expo start
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+📱 Run on:
 
-## Learn more
+* Expo Go (Android / iOS)
+* Emulator / Simulator
 
-To learn more about developing your project with Expo, look at the following resources:
+---
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## ✨ Features
 
-## Join the community
+### 🔍 Athlete Discovery Feed
 
-Join our community of developers creating universal apps.
+* Scrollable list of athletes using `FlatList`
+* Displays: name, sport, position, age, and score
+* Filter athletes by sport using dropdown chips
+* Real-time search with **debounced input (300ms)**
+* Dynamic result count display
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+---
+
+### 👤 Athlete Profile Screen
+
+* Detailed athlete stats (speed, stamina, accuracy)
+* **Readiness Score** with custom-built progress bar
+* Add / Remove athlete from shortlist
+* Clean navigation without stale state
+
+---
+
+### ⭐ Shortlist Management
+
+* Save athletes to shortlist
+* Persistent storage using **AsyncStorage**
+* Remove athletes from shortlist
+* Displays:
+
+  * Total shortlisted athletes
+  * Average score
+* Handles empty state gracefully
+
+---
+
+### 🧭 Navigation
+
+* Bottom Tab Navigation:
+
+  * Discover
+  * Shortlist
+* Stack Navigation inside Discover:
+
+  * Discover → Profile
+
+---
+
+## 🧠 Key Decisions
+
+* Used **React Navigation** instead of Expo Router for better control and alignment with assignment requirements.
+* Implemented **Context API** for global shortlist state management (simple and scalable).
+* Built **custom progress bar** instead of using external libraries to meet constraints.
+* Implemented **debounce manually** for search optimization and performance.
+* Prioritized **clean architecture and maintainability** over adding unnecessary complexity.
+
+---
+
+## ⚠️ What’s Incomplete / Trade-offs
+
+* Swipe-to-delete in shortlist not implemented (used button for simplicity)
+* UI animations kept minimal to focus on core functionality
+* Limited dataset (mock JSON) instead of dynamic API
+
+---
+
+## 🔮 If I Had More Time
+
+* Add smooth animations (e.g., chip transitions, progress bar animation)
+* Implement swipe gestures for shortlist removal
+* Improve UI polish (shadows, typography, spacing consistency)
+* Add sorting (e.g., highest score first)
+* Introduce unit tests for core logic
+
+---
+
+## 🛠 Tech Stack
+
+* React Native (Expo)
+* TypeScript
+* React Navigation
+* AsyncStorage
+
+---
+
+## 🤖 AI Tools Used
+
+* ChatGPT (for architecture guidance and debugging support)
+
+---
+
+## 📌 Final Notes
+
+The focus of this project was on **clean code, reliable functionality, and thoughtful product decisions** rather than overengineering features.
+
+---
+
+## 📷 Demo (Optional)
+
+*Add screenshots or screen recordings here if available*
+
+---
+
+## 📬 Submission
+
+Submitted as part of the ScoutIQ React Native Intern Assignment.
