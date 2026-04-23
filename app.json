@@ -7,7 +7,7 @@
     "icon": "./assets/images/icon.png",
     "scheme": "scoutiq",
     "userInterfaceStyle": "automatic",
-    "newArchEnabled": false,
+    "newArchEnabled": true,
     "ios": {
       "supportsTablet": true
     },
@@ -23,9 +23,8 @@
       "package": "com.govind350.ScoutIQ"
     },
     "web": {
-  "bundler": "metro"
-},
-
+      "bundler": "metro"
+    },
     "plugins": [
       "expo-router",
       [
@@ -45,13 +44,18 @@
       "typedRoutes": true,
       "reactCompiler": true
     },
-    
     "extra": {
       "router": {},
       "eas": {
         "projectId": "f9098dfd-782e-4d68-b21e-5ae1edbb1fb9"
       }
     },
-    "owner": "govind350"
+    "owner": "govind350",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/f9098dfd-782e-4d68-b21e-5ae1edbb1fb9"
+    }
   }
 }

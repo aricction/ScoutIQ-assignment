@@ -121,9 +121,6 @@ The focus of this project was on **clean code, reliable functionality, and thoug
 
 ---
 
-## 📷 Demo (Optional)
-
-*Add screenshots or screen recordings here if available*
 
 ---
 
