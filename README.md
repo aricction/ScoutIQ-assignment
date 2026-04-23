@@ -115,15 +115,3 @@ npx expo start
 
 ---
 
-## 📌 Final Notes
-
-The focus of this project was on **clean code, reliable functionality, and thoughtful product decisions** rather than overengineering features.
-
----
-
-
----
-
-## 📬 Submission
-
-Submitted as part of the ScoutIQ React Native Intern Assignment.
